@@ -1,1 +1,4 @@
 # AWS-Tomcat-Deployment-with-Terraform-Jenkins
+
+## This project demonstrates a complete DevOps pipeline for deploying a Java web application on AWS. Terraform was used to provision and manage the EC2 infrastructure as code, including security groups, IAM roles, and key pair setup. Apache Tomcat was installed and configured on the EC2 instance as the application server to host and serve the Java WAR file. Jenkins was set up as the CI/CD server, connected to a GitHub repository with webhooks to automatically trigger builds on every code push. On each trigger, Jenkins runs Maven to build and package the application, then automatically deploys the WAR file to Tomcat without any manual intervention. The result is a fully automated, end-to-end DevOps workflow — from a code commit on GitHub to a live application running on AWS.
+
